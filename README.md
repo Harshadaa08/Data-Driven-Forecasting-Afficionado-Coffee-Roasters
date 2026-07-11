@@ -207,7 +207,7 @@ The provided dataset does not contain transaction dates. Therefore, traditional 
 
 ![Correlation Matrix](images/correlation_matrix.png)
 
-
+---
 
 ## 👩‍💻 Author
 
