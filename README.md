@@ -6,22 +6,30 @@ This project analyzes coffee shop transaction data to identify sales patterns, c
 
 ---
 
+## 🚀 Live Demo
+
+### 🌐 Streamlit Dashboard
+
+**https://data-driven-forecasting-afficionado-coffee-roasters-fmeg5jpvla.streamlit.app/**
+
+---
+
 ## 🎯 Problem Statement
 
 Afficionado Coffee Roasters experiences fluctuations in customer demand throughout the day and across different store locations. Traditional planning methods based on historical intuition often result in inventory waste, inefficient staffing, and inconsistent operational decisions.
 
-This project applies data analytics and machine learning to support data-driven business decision-making.
+This project applies data analytics and machine learning techniques to support data-driven business decision-making.
 
 ---
 
 ## 🎯 Objectives
 
-- Analyze sales and revenue performance.
-- Identify peak business hours.
-- Evaluate store-wise performance.
-- Analyze product category and product type sales.
-- Build machine learning models for revenue prediction.
-- Provide business recommendations for operational improvement.
+- Analyze sales and revenue performance
+- Identify peak business hours
+- Evaluate store-wise performance
+- Analyze product category and product type sales
+- Build Machine Learning models for revenue prediction
+- Provide business recommendations for operational improvement
 
 ---
 
@@ -54,6 +62,7 @@ The dataset contains the following fields:
 - Scikit-learn
 - Streamlit
 - Jupyter Notebook
+- Git & GitHub
 
 ---
 
@@ -98,7 +107,7 @@ The following regression models were implemented:
 - Revenue is strongly influenced by transaction quantity.
 - Peak business hours require optimized staffing and inventory.
 - Certain product categories contribute more to total revenue.
-- Machine learning models improve revenue prediction accuracy.
+- Machine Learning models improve revenue prediction accuracy.
 
 ---
 
@@ -131,19 +140,19 @@ Data-Driven-Forecasting-Afficionado-Coffee-Roasters/
 
 ## ▶️ How to Run
 
-1. Clone this repository
+### 1. Clone this repository
 
 ```bash
-git clone https://github.com/your-username/Data-Driven-Forecasting-Afficionado-Coffee-Roasters.git
+git clone https://github.com/Harshadaa08/Data-Driven-Forecasting-Afficionado-Coffee-Roasters.git
 ```
 
-2. Install dependencies
+### 2. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Launch the Streamlit dashboard
+### 3. Launch the Streamlit Dashboard
 
 ```bash
 streamlit run app.py
@@ -153,7 +162,19 @@ streamlit run app.py
 
 ## 📌 Dataset Limitation
 
-The provided dataset does not contain transaction dates. Therefore, traditional time-series forecasting methods such as ARIMA, SARIMA, and Prophet were not applied. Revenue prediction was performed using supervised machine learning models based on the available features.
+The provided dataset does not contain transaction dates. Therefore, traditional time-series forecasting methods such as ARIMA, SARIMA, and Prophet were not applied. Revenue prediction was performed using supervised Machine Learning models based on the available features.
+
+---
+
+## 📸 Project Screenshots
+
+You can add dashboard screenshots inside the **images/** folder and display them here.
+
+Example:
+
+```markdown
+![Dashboard](images/dashboard.png)
+```
 
 ---
 
@@ -161,14 +182,26 @@ The provided dataset does not contain transaction dates. Therefore, traditional 
 
 **Harshada R. Kanse**
 
-MBA (Business Analytics & Marketing)
+**MBA (Business Analytics & Marketing)**
 
-Unified Mentor Internship
+**Unified Mentor Internship**
 
-GitHub: https://github.com/Harshadaa08
+### 🔗 GitHub
 
-LinkedIn: https://www.linkedin.com/in/harshada-r-kanse
+https://github.com/Harshadaa08
+
+### 🔗 LinkedIn
+
+https://www.linkedin.com/in/harshada-r-kanse
 
 ---
 
-## ⭐ If you found this project useful, consider giving it a Star!
+## ⭐ Support
+
+If you found this project useful, please ⭐ Star this repository and feel free to fork it.
+
+---
+
+## 🙏 Acknowledgements
+
+This project was completed as part of the **Unified Mentor Internship Program**, focusing on Business Analytics, Exploratory Data Analysis (EDA), Machine Learning, and Streamlit Dashboard Development.
