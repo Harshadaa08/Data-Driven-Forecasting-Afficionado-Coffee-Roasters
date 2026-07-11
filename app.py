@@ -24,8 +24,11 @@ def load_data():
     )
 
     df["Revenue"] = df["transaction_qty"] * df["unit_price"]
-    df["transaction_time"] = pd.to_datetime(df["transaction_time"])
-    df["Hour"] = df["transaction_time"].dt.hour
+   # Extract Hour from transaction_time
+df["Hour"] = pd.to_datetime(
+    df["transaction_time"].astype(str),
+    format="%H:%M:%S"
+).dt.hour
 
     return df
 
