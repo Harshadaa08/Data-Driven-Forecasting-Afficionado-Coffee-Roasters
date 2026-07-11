@@ -172,7 +172,6 @@ The provided dataset does not contain transaction dates. Therefore, traditional 
 
 ![Dashboard](images/dashboard.png)
 
----
 
 ### 📊 Revenue by Store
 
